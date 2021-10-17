@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Kitts Things 1-1\\5-1st sem\\OOP\\Assignment\\1\\Messagebox\\Messagebox\\Messagebox.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Kitts Things 1-1\\5-1st sem\\OOP\\Assignment\\Assignment 1\\Messagebox\\Messagebox\\Messagebox.csproj",
       "projectName": "Messagebox",
-      "projectPath": "C:\\Users\\User\\Desktop\\Kitts Things 1-1\\5-1st sem\\OOP\\Assignment\\1\\Messagebox\\Messagebox\\Messagebox.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Kitts Things 1-1\\5-1st sem\\OOP\\Assignment\\Assignment 1\\Messagebox\\Messagebox\\Messagebox.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Kitts Things 1-1\\5-1st sem\\OOP\\Assignment\\1\\Messagebox\\Messagebox\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Kitts Things 1-1\\5-1st sem\\OOP\\Assignment\\Assignment 1\\Messagebox\\Messagebox\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

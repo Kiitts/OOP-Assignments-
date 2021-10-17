@@ -20,7 +20,7 @@ namespace Messagebox
         private void nameCheck_CheckedChanged(object sender, EventArgs e)
         {
             if (nameCheck.Checked == false & yearCheck.Checked == false &
-                    univCheck.Checked == false & courseCheck.Checked == false)
+                     courseCheck.Checked == false)
             {
                 nameCheck.Checked = true;
             }
@@ -28,7 +28,6 @@ namespace Messagebox
             if (nameCheck.Checked == true)
             {
                 yearCheck.Checked = false;
-                univCheck.Checked = false;
                 courseCheck.Checked = false;
             }
         }
@@ -36,7 +35,7 @@ namespace Messagebox
         private void yearCheck_CheckedChanged(object sender, EventArgs e)
         {
             if (nameCheck.Checked == false & yearCheck.Checked == false &
-                univCheck.Checked == false & courseCheck.Checked == false)
+                 courseCheck.Checked == false)
             {
                 yearCheck.Checked = true;
             }
@@ -44,15 +43,14 @@ namespace Messagebox
             if (yearCheck.Checked == true)
             {
                 nameCheck.Checked = false;
-                univCheck.Checked = false;
                 courseCheck.Checked = false;
             }
         }
 
         private void courseCheck_CheckedChanged(object sender, EventArgs e)
         {
-            if (nameCheck.Checked == false & yearCheck.Checked == false &
-                univCheck.Checked == false & courseCheck.Checked == false)
+            if (nameCheck.Checked == false & yearCheck.Checked == false
+                & courseCheck.Checked == false)
             {
                 courseCheck.Checked = true;
             }
@@ -60,23 +58,6 @@ namespace Messagebox
             if (courseCheck.Checked == true)
             {
                 nameCheck.Checked = false;
-                univCheck.Checked = false;
-                yearCheck.Checked = false;
-            }
-        }
-
-        private void univCheck_CheckedChanged(object sender, EventArgs e)
-        {
-            if (nameCheck.Checked == false & yearCheck.Checked == false &
-                univCheck.Checked == false & courseCheck.Checked == false)
-            {
-                univCheck.Checked = true;
-            }
-
-            if (univCheck.Checked == true)
-            {
-                nameCheck.Checked = false;
-                courseCheck.Checked = false;
                 yearCheck.Checked = false;
             }
         }
@@ -94,10 +75,6 @@ namespace Messagebox
             if(courseCheck.Checked == true)
             {
                 MessageBox.Show("Bachelor of Science in Computer Engineering", "Course");
-            }
-            if(univCheck.Checked == true)
-            {
-                MessageBox.Show("Polytechnic University of the Philippines", "University");
             }
         }
     }

@@ -33,7 +33,6 @@ namespace Messagebox
             this.submitButton = new System.Windows.Forms.Button();
             this.nameCheck = new System.Windows.Forms.CheckBox();
             this.courseCheck = new System.Windows.Forms.CheckBox();
-            this.univCheck = new System.Windows.Forms.CheckBox();
             this.yearCheck = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
@@ -52,7 +51,7 @@ namespace Messagebox
             this.submitButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.submitButton.Location = new System.Drawing.Point(110, 132);
             this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(75, 23);
+            this.submitButton.Size = new System.Drawing.Size(86, 23);
             this.submitButton.TabIndex = 1;
             this.submitButton.Text = "SUBMIT";
             this.submitButton.UseVisualStyleBackColor = true;
@@ -76,25 +75,13 @@ namespace Messagebox
             // 
             this.courseCheck.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.courseCheck.AutoSize = true;
-            this.courseCheck.Location = new System.Drawing.Point(42, 93);
+            this.courseCheck.Location = new System.Drawing.Point(122, 97);
             this.courseCheck.Name = "courseCheck";
             this.courseCheck.Size = new System.Drawing.Size(63, 19);
             this.courseCheck.TabIndex = 3;
             this.courseCheck.Text = "Course";
             this.courseCheck.UseVisualStyleBackColor = true;
             this.courseCheck.CheckedChanged += new System.EventHandler(this.courseCheck_CheckedChanged);
-            // 
-            // univCheck
-            // 
-            this.univCheck.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.univCheck.AutoSize = true;
-            this.univCheck.Location = new System.Drawing.Point(157, 93);
-            this.univCheck.Name = "univCheck";
-            this.univCheck.Size = new System.Drawing.Size(78, 19);
-            this.univCheck.TabIndex = 4;
-            this.univCheck.Text = "University";
-            this.univCheck.UseVisualStyleBackColor = true;
-            this.univCheck.CheckedChanged += new System.EventHandler(this.univCheck_CheckedChanged);
             // 
             // yearCheck
             // 
@@ -114,7 +101,6 @@ namespace Messagebox
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(299, 167);
             this.Controls.Add(this.yearCheck);
-            this.Controls.Add(this.univCheck);
             this.Controls.Add(this.courseCheck);
             this.Controls.Add(this.nameCheck);
             this.Controls.Add(this.submitButton);
@@ -134,7 +120,6 @@ namespace Messagebox
         private System.Windows.Forms.Button submitButton;
         private System.Windows.Forms.CheckBox nameCheck;
         private System.Windows.Forms.CheckBox courseCheck;
-        private System.Windows.Forms.CheckBox univCheck;
         private System.Windows.Forms.CheckBox yearCheck;
     }
 }

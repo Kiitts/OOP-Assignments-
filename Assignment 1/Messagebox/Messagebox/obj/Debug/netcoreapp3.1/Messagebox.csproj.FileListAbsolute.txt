@@ -14,3 +14,19 @@ C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\1\Messagebox\Mes
 C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.dll
 C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.pdb
 C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.genruntimeconfig.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\bin\Debug\netcoreapp3.1\Messagebox.exe
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\bin\Debug\netcoreapp3.1\Messagebox.deps.json
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\bin\Debug\netcoreapp3.1\Messagebox.runtimeconfig.json
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\bin\Debug\netcoreapp3.1\Messagebox.runtimeconfig.dev.json
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\bin\Debug\netcoreapp3.1\Messagebox.dll
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\bin\Debug\netcoreapp3.1\Messagebox.pdb
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.instructionManual.resources
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.AssemblyInfo.cs
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.dll
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.pdb
+C:\Users\User\Desktop\Kitts Things 1-1\5-1st sem\OOP\Assignment\Assignment 1\Messagebox\Messagebox\obj\Debug\netcoreapp3.1\Messagebox.genruntimeconfig.cache

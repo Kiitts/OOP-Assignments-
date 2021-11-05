@@ -536,13 +536,13 @@ namespace Calculator
                 if (equalAgain)
                 {
                     // if recently equal
-                    preview2Holder = preview1.Text + " / ";
+                    preview2Holder = preview1.Text + " ÷ ";
                     previewCalculated = newCalculated;
                     equalAgain = false;
                 }
                 else if (newVal)
                 {
-                    preview2Holder = preview1.Text + " + ";
+                    preview2Holder = preview1.Text + " ÷ ";
                     previewCalculated = newCalculated;
                 }
                 else
@@ -552,33 +552,33 @@ namespace Calculator
                         // if the last operation is addition, the preview will show
                         // the value of the last calculated number plus the last input.
                         previewCalculated = newCalculated + double.Parse(preview1.Text);
-                        preview2Holder = preview2.Text + preview1.Text + " / ";
+                        preview2Holder = preview2.Text + preview1.Text + " ÷ ";
                     }
                     else if (operation == "minus")
                     {
                         // if the last operation is subtraction, the preview will show
                         // the value of the last calculated number minus the last input.
                         previewCalculated = newCalculated - double.Parse(preview1.Text);
-                        preview2Holder = preview2.Text + preview1.Text + " / ";
+                        preview2Holder = preview2.Text + preview1.Text + " ÷ ";
                     }
                     else if (operation == "multiply")
                     {
                         // if the last operation is division, the preview will show
                         // the value of the last calculated number divide the last input.
                         previewCalculated = newCalculated * double.Parse(preview1.Text);
-                        preview2Holder = preview2.Text + preview1.Text + " / ";
+                        preview2Holder = preview2.Text + preview1.Text + " ÷ ";
                     }
                     else
                     {
                         previewCalculated = newCalculated / double.Parse(preview1.Text);
-                        preview2Holder = preview2.Text + preview1.Text + " / ";
+                        preview2Holder = preview2.Text + preview1.Text + " ÷ ";
                     }
                 }
             }
             else
             {
                 previewCalculated = double.Parse(preview1.Text);
-                preview2Holder = preview1.Text + " / ";
+                preview2Holder = preview1.Text + " ÷ ";
             }
             preview2.Text = preview2Holder;
             newCalculated = previewCalculated;
@@ -595,13 +595,13 @@ namespace Calculator
                 if (equalAgain)
                 {
                     // if recently equal
-                    preview2Holder = preview1.Text + " * ";
+                    preview2Holder = preview1.Text + " × ";
                     previewCalculated = newCalculated;
                     equalAgain = false;
                 }
                 else if (newVal)
                 {
-                    preview2Holder = preview1.Text + " + ";
+                    preview2Holder = preview1.Text + " × ";
                     previewCalculated = newCalculated;
                 }
                 else
@@ -611,33 +611,33 @@ namespace Calculator
                         // if the last operation is addition, the preview will show
                         // the value of the last calculated number plus the last input.
                         previewCalculated = newCalculated + double.Parse(preview1.Text);
-                        preview2Holder = preview2.Text + preview1.Text + " * ";
+                        preview2Holder = preview2.Text + preview1.Text + " × ";
                     }
                     else if (operation == "minus")
                     {
                         // if the last operation is subtraction, the preview will show
                         // the value of the last calculated number minus the last input.
                         previewCalculated = newCalculated - double.Parse(preview1.Text);
-                        preview2Holder = preview2.Text + preview1.Text + " * ";
+                        preview2Holder = preview2.Text + preview1.Text + " × ";
                     }
                     else if (operation == "divide")
                     {
                         // if the last operation is division, the preview will show
                         // the value of the last calculated number divide the last input.
                         previewCalculated = newCalculated / double.Parse(preview1.Text);
-                        preview2Holder = preview2.Text + preview1.Text + " * ";
+                        preview2Holder = preview2.Text + preview1.Text + " × ";
                     }
                     else
                     {
                         previewCalculated = newCalculated * double.Parse(preview1.Text);
-                        preview2Holder = preview2.Text + preview1.Text + " * ";
+                        preview2Holder = preview2.Text + preview1.Text + " × ";
                     }
                 }
             }
             else
             {
                 previewCalculated = double.Parse(preview1.Text);
-                preview2Holder = preview1.Text + " * ";
+                preview2Holder = preview1.Text + " × ";
             }
             preview2.Text = preview2Holder;
             newCalculated = previewCalculated;
@@ -700,7 +700,7 @@ namespace Calculator
                 {
                     calculatedAnswer = newCalculated / lastNumber;
                     newCalculated = calculatedAnswer;
-                    preview2.Text = preview1.Text + " / " + lastNumber.ToString() + " =";
+                    preview2.Text = preview1.Text + " ÷ " + lastNumber.ToString() + " =";
                     preview1.Text = calculatedAnswer.ToString();
                 }
             }
@@ -718,7 +718,7 @@ namespace Calculator
                 {
                     calculatedAnswer = newCalculated * lastNumber;
                     newCalculated = calculatedAnswer;
-                    preview2.Text = preview1.Text + " * " + lastNumber.ToString() + " =";
+                    preview2.Text = preview1.Text + " × " + lastNumber.ToString() + " =";
                     preview1.Text = calculatedAnswer.ToString();
                 }
             }
